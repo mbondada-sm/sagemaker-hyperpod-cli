@@ -224,12 +224,6 @@ aws-efa-k8s-device-plugin:
   supportedInstanceLabels:
     # https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html#efa-instance-types
     values:
-      - ml.g4dn.xlarge
-      - ml.g4dn.2xlarge
-      - ml.g4dn.4xlarge
-      - ml.g4dn.8xlarge
-      - ml.g4dn.12xlarge
-      - ml.g4dn.16xlarge
       - ml.c5n.9xlarge
       - ml.c5n.18xlarge
       - ml.g5.8xlarge
